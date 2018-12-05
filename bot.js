@@ -65,13 +65,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '#rep'){
-        message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
+        message.channel.send('#rep @60#8685')
     }
 });
 
 client2.on('message', message => {
     if(message.content === '#rep'){
-        message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
+        message.channel.send('#rep @60#8685')
     }
 });
 
