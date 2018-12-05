@@ -16,49 +16,49 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '#d'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '#m'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '#m'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '#d'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '#m'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '#m'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '#d'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '#m'){
         message.channel.send('#credits')
     }
 });
@@ -70,19 +70,19 @@ client.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '#rep'){
         message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '#rep'){
         message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '#rep'){
         message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
     }
 });
