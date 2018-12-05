@@ -51,18 +51,52 @@ client2.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if(message.content === '-راتب'){
+        message.channel.send('#daily')
+    }
+});
 
+client.on('message', message => {
+    if(message.content === '-مبلغ'){
+        message.channel.send('#credits')
+    }
+});
+
+client.on('message', message => {
+    if(message.content === '#rep'){
+        message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
+    }
+});
+
+client2.on('message', message => {
+    if(message.content === '-راتب'){
+        message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
+    }
+});
+
+client2.on('message', message => {
+    if(message.content === '-مبلغ'){
+        message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
+    }
+});
+
+client2.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#rep @𝕐𝕆𝕌𝕊𝕊𝔼𝔽#8685')
+    }
+});
 
 client.on('ready', async() => {
-var server = "512693975363223573"; 
-var channel = "513991573772697602";
+var server = "519890778823196672"; 
+var channel = "519891078502154250";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >')
     },305);
 })
 client.on('ready', async() => {
-var server = "512693975363223573"; 
-var channel = "513991573772697602";
+var server = "519890778823196672"; 
+var channel = "519891078502154250";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >S ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE >SHADOW IS ONE > ')
     },305);
